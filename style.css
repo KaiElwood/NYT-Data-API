@@ -1,0 +1,26 @@
+input{
+    margin: 50px auto;
+    display: block;
+    font-size: 2rem;
+}
+
+#container{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#container div{
+    left: 20px;
+    /* float: left; */
+    padding: 30px;
+    object-fit: cover;
+    /* width: 200px; */
+    height: auto;
+    background-color: aqua;
+}
+
+#container div:nth-child(5){
+
+}
